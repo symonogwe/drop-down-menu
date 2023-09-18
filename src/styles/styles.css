@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
+
+:root {
+  --base-color: #344e41;
+  --sub-base-color: #588157;
+  --sub-color: #a3b18a;
+  --text-color: #dad7cd;
+  --base-p-fs: calc(1rem + 1vw);
+  --base-header-fs: calc(1.1rem + 1.2vw);
+  --app-h2-fs: calc(0.6rem + 0.6vw);
+  --logo-width: max(35px, 30%);
+  --base-header-ff: "Hind", sans-serif;
+  --base-paragraph-ff: "Zilla Slab", sans-serif;
+  --base-margin: 0.2em 0.6em;
+  --box-shadow: 5px 10px 30px black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+#hero-section {
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7%;
+  background-color: var(--base-color);
+}
+
+#left-nav {
+  height: 100%;
+  margin: var(--base-margin);
+}
+
+.logo-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: center;
+  height: 100%;
+}
+
+.logo-img {
+  align-self: center;
+  justify-self: center;
+  width: var(--logo-width);
+}
+
+.logo-txt {
+  font-family: var(--base-header-ff);
+  font-size: calc(1.3rem + 1.2vw);
+  color: var(--sub-color);
+}
+
+#right-nav {
+  border: 1px solid white;
+  height: 70%;
+  width: 7%;
+  margin: var(--base-margin);
+}
+
+.menu-div {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  /* align-content: center; */
+  /* justify-content: center; */
+}
+
+.menu-txt {
+  font-family: var(--base-paragraph-ff);
+  font-size: calc(0.8rem + 0.7vw);
+}
