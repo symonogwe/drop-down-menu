@@ -1,5 +1,15 @@
-# drop-down-menu
+# 🚀 Welcome to your new awesome project!
 
-This is a project by The Odin Project that tests my understanding
-of JavaScript in the real world by:
-- Building a drop-down menu
+This project has been created using **webpack-cli**, you can now run
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application
