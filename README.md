@@ -1,15 +1,6 @@
-# 🚀 Welcome to your new awesome project!
+This is a project by The Odin Project that tests my knowledge of
+Javascript in the real world by building the following
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+- Drop-down menu
+- Mobile menu
+- Image slider
