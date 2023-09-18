@@ -24,7 +24,7 @@ const config = {
     new HtmlWebpackPlugin({
       title: "drop-down-menu",
       filename: "index.html",
-      template: "index.html",
+      template: "./src/template.html",
     }),
 
     // Add your plugins here
