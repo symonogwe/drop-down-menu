@@ -12,7 +12,7 @@
     "pages": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
-  "author": "",
+  "author": "Symon Ogwe",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.17",
