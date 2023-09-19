@@ -98,7 +98,7 @@ nav {
   border-bottom: solid 11px black;
   height: 0;
   width: 0;
-  transition: transform 400ms ease-in-out;
+  transition: transform 100ms ease-in-out;
 }
 
 /* Javascript style */
@@ -114,7 +114,9 @@ nav {
   top: 65px;
   right: 10px;
   background-color: var(--sub-base-color);
+  opacity: 0;
   display: none;
+  transition: opacity 10s ease-in-out;
 }
 
 /* Javascript style */
