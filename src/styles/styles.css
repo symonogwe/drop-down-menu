@@ -81,6 +81,13 @@ nav {
   font-size: calc(0.8rem + 0.7vw);
 }
 
+.toggle-menu {
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
 .nav-links-container {
   border: 1px solid var(--base-color);
   width: 15%;
