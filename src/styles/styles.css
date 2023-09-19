@@ -82,10 +82,22 @@ nav {
 }
 
 .toggle-menu {
-  width: 80%;
+  width: 90%;
+  height: 80%;
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.caret {
+  border-left: solid 11px transparent;
+  border-right: solid 11px transparent;
+  border-bottom: solid 11px black;
+  height: 0;
+  width: 0;
 }
 
 .nav-links-container {
