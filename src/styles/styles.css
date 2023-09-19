@@ -98,6 +98,12 @@ nav {
   border-bottom: solid 11px black;
   height: 0;
   width: 0;
+  transition: transform 300ms ease-in-out;
+}
+
+/* Javascript style */
+.caret-rotate {
+  transform: rotate(180deg);
 }
 
 .nav-links-container {
@@ -107,14 +113,15 @@ nav {
   position: absolute;
   top: 65px;
   right: 10px;
-  justify-items: center;
   background-color: var(--sub-base-color);
   display: none;
 }
 
+/* Javascript style */
 .visible-menu {
   display: grid;
-  opacity: 0.9;
+  justify-items: center;
+  opacity: 1;
 }
 
 .nav-links-container a {
