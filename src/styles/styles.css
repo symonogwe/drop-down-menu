@@ -98,7 +98,7 @@ nav {
   border-bottom: solid 11px black;
   height: 0;
   width: 0;
-  transition: transform 300ms ease-in-out;
+  transition: transform 400ms ease-in-out;
 }
 
 /* Javascript style */
@@ -118,10 +118,10 @@ nav {
 }
 
 /* Javascript style */
-.visible-menu {
+.visible-dropDown {
   display: grid;
   justify-items: center;
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .nav-links-container a {
