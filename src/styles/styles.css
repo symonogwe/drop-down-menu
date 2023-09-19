@@ -27,26 +27,27 @@ body {
 
 #hero-section {
   height: 100vh;
+  position: relative;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7%;
+  height: 6%;
   background-color: var(--base-color);
 }
 
 #left-nav {
   height: 100%;
   margin: var(--base-margin);
+  display: grid;
+  align-items: center;
 }
 
 .logo-div {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  align-content: center;
-  height: 100%;
 }
 
 .logo-img {
@@ -62,21 +63,52 @@ nav {
 }
 
 #right-nav {
-  border: 1px solid white;
   height: 70%;
-  width: 7%;
+  width: 9%;
   margin: var(--base-margin);
+  display: grid;
+  align-items: center;
 }
 
 .menu-div {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
-  /* align-content: center; */
-  /* justify-content: center; */
 }
 
 .menu-txt {
   font-family: var(--base-paragraph-ff);
   font-size: calc(0.8rem + 0.7vw);
+}
+
+.nav-links-container {
+  border: 1px solid var(--base-color);
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  display: grid;
+  justify-items: center;
+  background-color: var(--sub-base-color);
+  display: none;
+}
+
+.nav-links-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link {
+  font-size: calc(0.7rem + 0.6vw);
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid white;
+  scale: 1.1;
+}
+
+#hero-container {
+  height: 94%;
+  background: url(/src/Assets/hero-image.jpg) no-repeat center center/cover;
 }
