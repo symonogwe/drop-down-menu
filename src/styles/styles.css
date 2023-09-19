@@ -99,6 +99,13 @@ nav {
   justify-items: center;
   background-color: var(--sub-base-color);
   display: none;
+  opacity: 0;
+  transition: opacity 10s ease-in-out;
+}
+
+.visible-menu {
+  display: grid;
+  opacity: 0.9;
 }
 
 .nav-links-container a {

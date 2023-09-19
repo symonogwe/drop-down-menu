@@ -7,3 +7,13 @@ logoImg.src = logoSvg;
 
 export const menuArrow = document.querySelector(".menu-arrow");
 menuArrow.src = dropUpSvg;
+
+export function toggleDropDown(element) {
+  element.classList.toggle("visible-menu");
+  if (menuArrow.src === dropUpSvg) {
+    menuArrow.src = dropDownSvg;
+    return true;
+  }
+  menuArrow.src = dropUpSvg;
+  return false;
+}
