@@ -1,4 +1,4 @@
-function toggleDropDown() {
+export function toggleDropDown() {
   const dropDown = document.querySelector(".nav-links-container");
   const caret = document.querySelector(".caret");
 
